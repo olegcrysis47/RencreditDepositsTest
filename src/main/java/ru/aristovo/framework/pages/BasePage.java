@@ -151,4 +151,13 @@ public class BasePage {
             e.printStackTrace();
         }
     }
+
+    /**
+     * Метод для заполнения веб-элементов (полей ввода) на странице.
+     * @param element - веб-элемент поля, которое можно заполнить с клавиатуры.
+     * @param str - данные, которые заполняются в поле.
+     */
+    public void fillField(WebElement element, String str) {
+        element.sendKeys(str);
+    }
 }
