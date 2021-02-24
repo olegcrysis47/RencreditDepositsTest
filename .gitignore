@@ -1,4 +1,5 @@
 # Default ignored folder
+.allure
 .idea
 target
 
